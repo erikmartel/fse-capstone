@@ -1,19 +1,26 @@
+* {
+    box-sizing:border-box;
+}
+
 body {
-    
+    padding: top 120px;
     padding-bottom: 3rem;
     background-color:antiquewhite
 }
-
+    
 .bg-primary {
     background-color:cadetblue !important;
 }
 
 .jumbotron-detail-hammock-guitars{
-    background: url(/images/hammockguitars_banner.jpg) no-repeat fixed;
+    background: url(/images/hammock_guitar.jpeg) no-repeat fixed;
 }
 
 .jumbotron {
     height:75vh;
     background-size:cover;
-    
+}
+
+.footerlinks{
+    display:inline;
 }

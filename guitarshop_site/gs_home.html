@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset= "utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/gs_css/bootstrap.css">
     <link rel="stylesheet" href="/gs_css/gs_site.css">
@@ -13,16 +13,17 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-            <div class="navcontainer">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
                 <a class="navbar-brand" href="gs_home.html">
-                    <img src="/images/hammockguitars_logo.jpg" width="175" height="100" class="d-inline-block align-top" alt="">
-                        Hammock Guitars</a>
+                    <img src="/images/hammockguitars_logo.jpg" width="75" height="50" class="d-inline-block align-top"
+                        alt="logo">
+                    North Beach Guitars</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="gs_home.html">Home</a>
@@ -35,7 +36,8 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="gs_registration.html">Join Us</a>
-                        </li><li class="nav-item">
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="gs_contact.html">Contact</a>
                         </li>
                     </ul>
@@ -45,76 +47,85 @@
     </header>
 
     <main role="main">
-        
+
         <div class="jumbotron jumbotron-detail-hammock-guitars" style="margin: top 100px;">
             <div class="container">
-            <h1 class="display-1 text-white">Hammock Guitars</h1>
+                <h1 class="display-1 text-white" id="jumbotrontext">North Beach Guitars</h1>
             </div>
         </div>
 
-
-        <div class="about">
-            <h2>Our Philosophy</h2>
-            <p> Here at Hammock Guitars, we care about blah blah blah XYZ. Our mission is to blah blah blah. The quality and craftsmanship we exhibit is second to none, etc. etc.</p>
+        <div class="container" <div class="aboutcontainer">
+            <div class="aboutheader">
+                <h2 class="my-2 text-capitalize">Our Philosophy</h2>
+            </div>
+            <div class="abouttext">
+                <p> Here at North Beach Guitars, we care about blah blah blah XYZ. Our mission is to blah blah blah. The
+                    quality and craftsmanship we exhibit is second to none, etc. etc.</p>
+            </div>
         </div>
 
-        <div class="standardcustom"">
-                <h3>Standard or Custom</h3>
-
-            <div class="standard">
-                <p>S-Standard</p>
-                <img src="./images/standard_guitar.jpg" alt="S-Standard image" width="500vh"/>
+        <div class=" row text-center col-md-12" id="standardcustomheader">
+            <h3>Standard or Custom</h3>
+        </div>
+        <div class="row text-center col-md-12">
+            <div class="text-center col-md-6" <p>S-Standard</p>
+                <img src="./images/standard_guitar.jpg" alt="S-Standard image" width="600vh" />
                 <p>S-Standard description</p>
-            </div>
-        
-            <div class="custom">
-                <p>Custom Build</p>
-                <img src="/images/custom_guitar.jpg" alt="custom guitar" width="500vh"/>
-                <p>Custom Build description</p>
-            </div>
 
-         
+            </div>
+            <div class="text-center col-md-6">
+                <div class="custom">
+                    <p>Custom Build</p>
+                    <img src="/images/custom_guitar.jpg" alt="custom guitar" width="700vh" />
+                    <p>Custom Build description</p>
+                </div>
+            </div>
+        </div>
         </div>
 
-        <div class="testimonialcontainer">
-            <h3>Hear from our clients</h3>
-            
-            <div class="testimonial">
+        <div class="row col-md-12 b" id="testimonialcontainer">
+            <h3 class="text-center">Hear from our clients</h3>
+
+            <div class="text-center col-md-4 testimonial">
                 <p>Testimonial 1</p>
                 <p>Name1</p>
             </div>
-        
-            <div class="testimonial">
+
+            <div class="text-center col-md-4 testimonial">
                 <p>Testimonial2</p>
                 <p>Name2</p>
             </div>
 
-            <div class="testimonial">
+            <div class="text-center col-md-4 testimonial">
                 <p>Testimonial3</p>
                 <p>Name3</p>
             </div>
 
         </div>
 
-        <div class="footer">
+        <div class="row text-center col-md-12 bg-primary footer" >
 
-            <div id="locationhours">
-            <p>123 Fake Street</p>
-            <p>Manchester, NH</p>
-            <p>03104</p>
+            <div class="col-md-6" id="locationhours">
+                <a href="https://maps.google.com">
+                    <p>123 Fake Street</p>
+                    <p>Manchester, NH</p>
+                    <p>03104</p>
+                </a>
             </div>
 
-            <div id="footerlinks">
-                <p>Contact Us</p>
-                <p>Inventory</p>
-                <p>Login</p>
-                <p>Sign Up</p>
-                
+            <div class="col-md-6 footerlinks" id="footerlinks">
+                <p><a href="gs_contact.html">Contact Us</a></p>
+                <p><a href="gs_products.html"> Inventory</a></p>
+                <p><a href="gs_login.html">Login</a></p>
+                <p><a href=gs_registration.html>Sign Up</a></p>
+
             </div>
 
 
         </div>
 
+
+        </div>
     </main>
 </body>
 
