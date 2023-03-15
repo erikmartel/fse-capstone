@@ -36,7 +36,6 @@ body {
 }
 
 
-
 .login-header-container{
     display:flex;
     justify-content:center;
@@ -52,8 +51,18 @@ body {
     justify-content:center;
     align-items:center;
     margin-top:2vh;
+    margin-bottom:2vh;
 }
 
+.reg-header-container{
+    display:flex;
+    justify-content:center;
+}
+
+.regbody{
+    display:flex;
+    justify-content:center;
+}
 
 
 input:required{
@@ -66,12 +75,7 @@ input:valid{
     border-style:solid;
 }
 
-
-.footer{
-    width:auto;
-    margin-top:20px
-}
+.footer{}
 
 .footerlinks{
-    display:inline;
 }
