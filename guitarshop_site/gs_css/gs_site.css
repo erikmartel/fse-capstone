@@ -35,6 +35,38 @@ body {
     padding: 5px;
 }
 
+
+
+.login-header-container{
+    display:flex;
+    justify-content:center;
+}
+
+.loginbody{
+    display:flex;
+    justify-content:center;
+}
+
+.login-form-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2vh;
+}
+
+
+
+input:required{
+    border-width: 2px;
+    border-color:black;
+}
+
+input:valid{
+    border-color:green;
+    border-style:solid;
+}
+
+
 .footer{
     width:auto;
     margin-top:20px
