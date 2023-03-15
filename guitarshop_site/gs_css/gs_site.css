@@ -21,6 +21,25 @@ body {
     background-size:cover;
 }
 
+
+.build-options-container{
+    background-color:white;
+    width:auto;
+}
+
+.standard{
+    padding: 5px;
+}
+
+.custom{
+    padding: 5px;
+}
+
+.footer{
+    width:auto;
+    margin-top:20px
+}
+
 .footerlinks{
     display:inline;
 }
