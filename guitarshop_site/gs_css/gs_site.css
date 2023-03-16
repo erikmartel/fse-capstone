@@ -5,34 +5,12 @@
 body {
     padding: top 120px;
     padding-bottom: 3rem;
-    background-color:antiquewhite
+    background-color:antiquewhite;
+    height:100vh;
 }
     
 .bg-primary {
     background-color:cadetblue !important;
-}
-
-.jumbotron-detail-hammock-guitars{
-    background: url(/images/hammock_guitar.jpeg) no-repeat fixed;
-}
-
-.jumbotron {
-    height:75vh;
-    background-size:cover;
-}
-
-
-.build-options-container{
-    background-color:white;
-    width:auto;
-}
-
-.standard{
-    padding: 5px;
-}
-
-.custom{
-    padding: 5px;
 }
 
 
@@ -64,7 +42,6 @@ body {
     justify-content:center;
 }
 
-
 input:required{
     border-width: 2px;
     border-color:black;
@@ -75,7 +52,9 @@ input:valid{
     border-style:solid;
 }
 
-.footer{}
+.footer{
+    width:auto;
+}
 
 .footerlinks{
 }
