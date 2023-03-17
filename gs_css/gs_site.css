@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    padding: top 120px;
+    padding-bottom: 3rem;
+    background-image: url(/images/ocean\ background.jpg);
+    height:100vh;
+    font-family:"Quicksand", sans-serif;
+}
+    
+.bg-primary {
+    background-color:cadetblue !important;
+}
+
+.content{
+    background-color:antiquewhite;
+}
+
+.testimonial-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-header-container{
+    display:flex;
+    justify-content:center;
+}
+
+.loginbody{
+    display:flex;
+    justify-content:center;
+}
+
+.login-form-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+
+.reg-header-container{
+    display:flex;
+    justify-content:center;
+}
+
+.regbody{
+    display:flex;
+    justify-content:center;
+}
+
+input:required{
+    border-width: 2px;
+    border-color:black;
+}
+
+input:valid{
+    border-color:green;
+    border-style:solid;
+}
+
+.footer{
+    margin-top:0px;
+    width:auto;
+    margin
+}
+
+.footerlinks > p {
+    text-decoration: none;
+    font: small-caps bold 20px;
+    color:aliceblue;
+    
+}
+
+
+.footerlinks > p >a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.footerlinks > p >a:hover{
+    text-decoration:underline;
+    color:ivory;
+}

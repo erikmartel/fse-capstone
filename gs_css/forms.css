@@ -1,0 +1,12 @@
+
+
+
+input:required{
+    border-width: 2px;
+    border-color:black;
+}
+
+input:valid{
+    border-color:green;
+    border-style:solid;
+}

@@ -1,0 +1,21 @@
+.standard-order-button-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.products-table-container{
+    margin-left: 3px;
+}
+
+.products-table{
+    border:1px solid gray;
+}
+
+select{
+    width:fit-content;
+}
+
+.custom-build-form{
+    margin:5px;
+}

@@ -1,0 +1,28 @@
+.jumbotron-detail-hammock-guitars{
+    background: url(/images/hammock_guitar.jpeg) no-repeat fixed;
+}
+
+.jumbotron {
+    height:75vh;
+    background-size:cover;
+}
+
+
+.build-options-container{
+    background-color: aliceblue;
+    border-top:solid;
+    border-bottom:solid;
+    border-width: 1px;
+}
+
+
+
+
+
+.standard{
+    padding: 5px;
+}
+
+.custom{
+    padding: 5px;
+}
