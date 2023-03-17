@@ -9,9 +9,15 @@
 
 
 .build-options-container{
-    background-color:white;
-    width:auto;
+    background-color: aliceblue;
+    border-top:solid;
+    border-bottom:solid;
+    border-width: 1px;
 }
+
+
+
+
 
 .standard{
     padding: 5px;
